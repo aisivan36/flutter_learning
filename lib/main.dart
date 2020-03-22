@@ -7,6 +7,13 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Text('What\'s up'),);
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Flutter Learning'),
+        ),
+        body: Text('Just for testing it'),
+      ),
+    );
   }
 }
